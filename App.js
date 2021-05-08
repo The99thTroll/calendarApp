@@ -49,7 +49,7 @@ export default class App extends Component {
 
   keyExtractor = (item, index) => index.toString()
 
-  renderItem = ( {item, i} ) => { 
+  renderItem = ({item, i}) => { 
     return ( 
     <ListItem key={i} bottomDivider>
         <ListItem.Content>
